@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.ayunami2000.drawer.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+
+  ],
+  "client": [
+    "MixinClientPlayerEntity"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

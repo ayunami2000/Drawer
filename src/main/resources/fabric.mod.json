@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "drawer",
+  "version": "${version}",
+
+  "name": "Drawer",
+  "description": "Draws stuff in-game!",
+  "authors": [
+    "ayunami2000"
+  ],
+  "contact": {
+    "homepage": "https://github.com/ayunami2000",
+    "sources": "https://github.com/ayunami2000"
+  },
+
+  "license": "CC-BY-NC-ND-3.0",
+  "icon": "assets/drawer/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.ayunami2000.drawer.Drawer"
+    ]
+  },
+  "mixins": [
+    "drawer.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.12",
+    "fabric": "*",
+    "minecraft": "1.19.x",
+    "java": ">=17"
+  },
+  "suggests": {
+
+  }
+}
