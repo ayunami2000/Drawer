@@ -7,7 +7,7 @@
 
   ],
   "client": [
-    "MixinClientPlayerEntity"
+    "MixinChatScreen"
   ],
   "injectors": {
     "defaultRequire": 1

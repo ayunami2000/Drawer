@@ -4,7 +4,6 @@ import net.minecraft.util.math.Direction;
 
 import java.awt.*;
 import java.awt.image.BufferedImage;
-import java.util.Arrays;
 
 public class Command {
     public static boolean parse(String cmd){
